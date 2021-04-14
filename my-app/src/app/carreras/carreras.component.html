@@ -1,0 +1,8 @@
+<h1>LISTA DE CARRERAS</h1>
+<ul class="heroes">
+  <li *ngFor="let carrera of carreras"
+    [class.selected]="carrera === selectedCarrera"
+    (click)="onSelect(carrera)">
+    <span class="badge">{{carrera.ncarrera}}</span> {{carrera.nombre}}
+  </li>
+</ul>
