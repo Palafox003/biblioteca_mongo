@@ -9,6 +9,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { CarrerasComponent } from './carreras/carreras.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { CarreraDetailComponent } from './carrera-detail/carrera-detail.component';
 
 
 
@@ -18,7 +19,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     HeroesComponent,
     HeroDetailComponent,
     CarrerasComponent,
-    DashboardComponent
+    DashboardComponent,
+    CarreraDetailComponent
   ],
   imports: [
     BrowserModule,

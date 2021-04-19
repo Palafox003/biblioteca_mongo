@@ -3,6 +3,8 @@
   <li *ngFor="let carrera of carreras"
     [class.selected]="carrera === selectedCarrera"
     (click)="onSelect(carrera)">
-    <span class="badge">{{carrera.ncarrera}}</span> {{carrera.nombre}}
+    <a routerLink="/carra-detail/{{carrera._id}}">
+      <span class="badge">{{carrera.ncarrera}}</span> {{carrera.nombre}}
+    </a>
   </li>
 </ul>

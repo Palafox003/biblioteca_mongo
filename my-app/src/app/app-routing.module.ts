@@ -6,6 +6,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { CarrerasComponent } from './carreras/carreras.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { CarreraDetailComponent } from './carrera-detail/carrera-detail.component';
+
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -13,6 +15,7 @@ const routes: Routes = [
   { path: 'carreras', component: CarrerasComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'detail/:id', component: HeroDetailComponent },
+  { path: 'carra-detail/:id', component: CarreraDetailComponent },
 ];
 
 @NgModule({
